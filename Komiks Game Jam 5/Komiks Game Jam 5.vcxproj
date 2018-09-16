@@ -128,11 +128,42 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="src\HPIndicator.cpp" />
+    <ClCompile Include="src\Enemy.cpp" />
+    <ClCompile Include="src\Bullet.cpp" />
+    <ClCompile Include="src\Math.cpp" />
+    <ClCompile Include="src\Player.cpp" />
     <ClCompile Include="src\Game.cpp" />
     <ClCompile Include="src\Main.cpp" />
+    <ClCompile Include="src\Wall.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="src\HPIndicator.hpp" />
+    <ClInclude Include="src\Enemy.hpp" />
+    <ClInclude Include="src\Bullet.hpp" />
+    <ClInclude Include="src\Math.hpp" />
+    <ClInclude Include="src\Player.hpp" />
     <ClInclude Include="src\Game.hpp" />
+    <ClInclude Include="src\Season.hpp" />
+    <ClInclude Include="src\Wall.hpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Bullets.aseprite" />
+    <None Include="openal32.dll" />
+    <None Include="Player.aseprite" />
+    <None Include="Trees.aseprite" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="assets\Bullets.png" />
+    <Image Include="assets\Heart.png" />
+    <Image Include="assets\Player.png" />
+    <Image Include="assets\Trees.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Font Include="assets\Kemco Pixel Bold.ttf" />
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="assets\Shot.wav" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
