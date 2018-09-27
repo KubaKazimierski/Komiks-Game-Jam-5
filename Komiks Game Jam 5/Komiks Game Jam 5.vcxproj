@@ -132,7 +132,6 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="LICENSE" />
     <ClCompile Include="src\HPIndicator.cpp" />
     <ClCompile Include="src\Enemy.cpp" />
     <ClCompile Include="src\Bullet.cpp" />

@@ -42,9 +42,6 @@
     <ClCompile Include="src\HPIndicator.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="LICENSE">
-      <Filter>Source Files</Filter>
-    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\Game.hpp">
