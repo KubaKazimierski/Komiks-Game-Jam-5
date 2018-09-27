@@ -1,10 +1,27 @@
+/*
+   Season Shooter - a Komiks Game Jam 5 entry, theme: 'Seasons'
+   Copyright 2018 Jakub Kazimierski
+
+   Licensed under the Apache License, Version 2.0 (the "License");
+   you may not use this file except in compliance with the License.
+   You may obtain a copy of the License at
+
+	   http://www.apache.org/licenses/LICENSE-2.0
+
+   Unless required by applicable law or agreed to in writing, software
+   distributed under the License is distributed on an "AS IS" BASIS,
+   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+   See the License for the specific language governing permissions and
+   limitations under the License.
+*/
+
 #include "Game.hpp"
 
 const sf::Color Game::Colors[] = {
-	sf::Color(113, 243, 65),
+	sf::Color(108, 238, 60),
 	sf::Color(235, 211, 32),
-	sf::Color(250, 116, 35),
-	sf::Color(235, 235, 235)
+	sf::Color(245, 111, 30),
+	sf::Color(230, 230, 230)
 };
 
 Game::Game() : Window(sf::VideoMode(980, 540),
@@ -232,6 +249,8 @@ void Game::handleInput()
 										 ActualSeason)
 			);
 
+
+			ShotSound.stop();
 			ShotSound.play();
 			ShootingClock.restart();
 		}
