@@ -8,4 +8,4 @@ Prototype of simple top-down shooter based around concept of seasons.
   - Pink enemies are killable during spring.
   - Blue enemies are killable during summer.
   
-#### Game's page on itch.io: [Season Shooter](https://jkazimierski.itch.io/season-shooter)
+#### Game's page on itch.io: [Season Shooter](https://kubakazimierski.itch.io/season-shooter)
